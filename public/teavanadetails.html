@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <link rel="icon" href="favicon.png" type="image/jpeg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="productdet.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon.png">
+</head>
+
+<body class="productdetails">
+
+    <header>
+        <div class="logo">
+            <a href="dashboard.html">
+                <img src="favicon.png" width="80px">
+            </a>
+        </div>
+        <nav class="navigationbar">
+            <a href="dashboard.html">HOME</a>
+            <a class="active" href="#top">MENU</a>
+            <a href="favorites.html">FAVORITES</a>
+            <a href="https://dashboard.stripe.com/test/payments">ORDER</a>
+            <a href="index.html">SIGN OUT</a>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="favorites.html" class="fas fa-heart"></a>
+            <i class="fas fa-shopping-cart" id="cart-icon" data-quantity="0"></i>
+        </div>      
+
+        <div class="cart">
+            <h2 class = "cart-title">Your Cart</h2>
+            <div class="cart-content"></div>
+
+            <div class="total">
+                <div class="total-title">Total</div>
+                <div class="total-price">$0</div>
+            </div>
+            <button type="button" class="btn-buy">Pay Now</button>
+            <i class="fas fa-times" id="close-cart"></i>
+
+        </div>
+
+    </header>
+
+    <section id="productdetails" class="section-p1">
+        <div class="single-pro-image">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOhDyAWOk1oNawt_JF8_oNripNOv4fz2rKDjthxFcTeU4VD1lvs0fjHq7-WrV9AQCE60FqHRRcw0tZa6WuJQJxG4VLt58PpE_ArGGz9pIIYgHg4vsaDVvm-WnUpWOi_7AVis11FvTvbEL6F_O7TDBPRi527pD0yP_UfHUCB65qgAVFpuSR_KH8Stth8G2S/s320/Black%20Tea%20Latte.jpeg" width="100%" id="MainImg" alt="">
+        </div>
+        
+        <div class="single-productdetails">
+            <h6>Menu / Teavana Offers</h6>
+            <h4 class="product-title">Black Tea Latte</h4>
+            <h4>Product Details</h4>
+            <p>
+                Pure black tea is steamed with milk then sweetened to create this smooth, creamy latte. A signature favourite of tea lovers.
+            </p>
+            <h4>Dietary Restrictions</h4>      
+            <p> 
+                <strong>Gluten Intolerance/Celiac Disease:</strong> All the ingredients in the Black Tea Latte are naturally gluten-free. However, cross-contamination can occur, so it is always best to check the labels or ask the manufacturer if you are unsure.<br> 
+                <strong>Diabetes:</strong> The sugar in the drink can affect blood sugar levels, so it may not be suitable for people with diabetes.<br> 
+                <strong>Vegan Diet:</strong> The recipe includes milk, which is not suitable for vegans. However, you can substitute this with plant-based alternatives.<br>
+                <strong>Lactose Intolerance:</strong> People with lactose intolerance should be cautious as this drink contains milk, which contains lactose.<br> 
+                <strong>High Blood Pressure:</strong> While the recipe does not contain salt, the high sugar content may not be suitable for people with high blood pressure. 
+            </p>
+        </div>
+    </section>
+    
+    <script src="scripts.js"></script>
+    <script src="cart.js"></script>
+    
+</section>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

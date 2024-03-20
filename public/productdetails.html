@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <link rel="icon" href="favicon.png" type="image/jpeg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="productdet.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon.png">
+</head>
+
+<body class="productdetails">
+
+    <header>
+        <div class="logo">
+            <a href="dashboard.html">
+                <img src="favicon.png" width="80px">
+            </a>
+        </div>
+        <nav class="navigationbar">
+            <a href="dashboard.html">HOME</a>
+            <a class="active" href="#top">MENU</a>
+            <a href="favorites.html">FAVORITES</a>
+            <a href="https://dashboard.stripe.com/test/payments">ORDER</a>
+            <a href="index.html">SIGN OUT</a>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="favorites.html" class="fas fa-heart"></a>
+            <i class="fas fa-shopping-cart" id="cart-icon" data-quantity="0"></i>
+        </div>      
+
+        <div class="cart">
+            <h2 class = "cart-title">Your Cart</h2>
+            <div class="cart-content"></div>
+
+            <div class="total">
+                <div class="total-title">Total</div>
+                <div class="total-price">$0</div>
+            </div>
+            <button type="button" class="btn-buy">Pay Now</button>
+            <i class="fas fa-times" id="close-cart"></i>
+
+        </div>
+
+    </header>
+
+    <section id="productdetails" class="section-p1">
+        <div class="single-pro-image">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3ODmB72Lq64RwqVZRj2ls6C3bt1RvANF5oyaXThCn3ed7TGeCqZpmS7ZUC0ttv3yZHyySHNI05l47FUla3thh7vUvMn0MgBAToPTxtFssfb3rD8QJ1IKd54JKi7z4f89l0NfjHYzXGdP5A0CgHEcvyKSythn9ptMLznVLWsG4ykmfCxF94eatOFoX1Fgq/s320/Iced%20Cappuccino%20with%20Cold%20Foam.jpeg" width="100%" id="MainImg" alt="">
+        </div>
+        
+        <div class="single-productdetails">
+            <h6>Menu / Espresso Offers</h6>
+            <h4 class="product-title">Iced Cappuccino with Cold Foam</h4>
+            <h4>Product Details</h4>
+            <p>
+                A chilly reinterpretation of a solid classic, this beverage is the ideal choice for any event. Imagine a traditional cappuccino, now picture it transformed by the unique touch of Starbucks® Coffee for a revitalizing delight. This icy drink offers a hint of sweetness, enveloped by a layer of frothy milk that provides a revitalizing surge of creamy delight with each taste. It is a harmoniously balanced drink, suitable for all types of weather.
+            </p>
+        
+            <h4>Dietary Restrictions</h4>      
+            <p>
+                <strong>Lactose Intolerance:</strong> Milk in the recipe may not be suitable for those with lactose intolerance. <br>
+                <strong>Vegan Diet:</strong> The milk in this recipe is not suitable for vegans. <br>
+                <strong>Allergies:</strong> Some may be allergic to ingredients like cinnamon. <br>
+                <strong>Caffeine Sensitivity:</strong> The espresso contains caffeine, which may not be suitable for those sensitive to caffeine. <br>
+                <strong>Pregnancy and Breastfeeding:</strong> High doses of cinnamon might not be safe during pregnancy or breastfeeding.
+            </p>
+        </div>
+    </section>
+    
+    <script src="scripts.js"></script>
+    <script src="cart.js"></script>
+    
+</section>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
